@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <input type="checkbox" id="Blue" value="Blue" v-model="txt">
+        <label for="Blue">Blue</label><br>
+        <input type="checkbox" id="Black" value="Black" v-model="txt">
+        <label for="Black">Black</label><br>
+        <input type="checkbox" id="Red" value="Red" v-model="txt">
+        <label for="Red">Red</label><br>
+        <input type="checkbox" id="Green" value="Green" v-model="txt">
+        <label for="Green">Green</label><br>
+        <br>
+        <span>Màu đã chọn: {{ txt }}</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

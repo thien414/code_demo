@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <span>Thông điệp vừa nhập là: </span>
+        <p style="white-space: pre-line;">{{ txt }}</p>
+        <br>
+        <textarea v-model="txt" placeholder="Nhập thông điệp..."></textarea>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>

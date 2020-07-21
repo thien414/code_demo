@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <input type="radio" id="Laptop" value="Laptop" v-model="txt">
+        <label for="Laptop">Laptop</label><br>
+        <input type="radio" id="Computer" value="Computer" v-model="txt">
+        <label for="Computer">Computer</label><br>
+        <br>
+        <span>Đã chọn: {{ txt }}</span>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
